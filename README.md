@@ -22,10 +22,10 @@ Here are the requirements:
 
 1. The dataset is on Amazon S3. Access the data assigned to you from S3
 
-2. You should build a pipeline using Luigi/Airflow/Sklearn (See the google link for your
+2. You should build a pipeline using **Luigi/Airflow/Sklearn** (See the google link for your
 team’s allocated method. This pipeline incorporates:
 
-* Data ingestion into Pandas
+* Data ingestion into **Pandas**
 * Cleanup the Data if needed
 * Exploratory Data Analysis with Plotly/seaborn/matplotlib
 * Feature Engineering on the data
@@ -36,7 +36,7 @@ with Ranking of the models
 * Pickle all the models
 * Upload the error metric csv and models to s3 bucket
 
-3. Dockerize this pipeline using Repo2Docker or write your own docker file
+3. Dockerize this pipeline using **Repo2Docker** or write your own docker file
 
 4. Note:
 
@@ -50,7 +50,7 @@ implementation, results and analysis
 
 **Part2: Model Deployment**
 
-1. Create a Web application using Flask that uses the models created (in Pickle format) in
+1. Create a Web application using **Flask** that uses the models created (in Pickle format) in
 Part1 and stored on S3
 2. Build a web page which takes user inputs. The application should allow submission of
 data for prediction via Forms as well as REST Api calls using JSON
