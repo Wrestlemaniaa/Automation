@@ -23,3 +23,11 @@
 NOTE: Data in this file can not be viewed in 'github'.
 
 - [Flask](https://github.com/Wrestlemaniaa/Automation/tree/master/Main%20Assignment/Flask) folder contains all the code which is used to create UI using `Flask API`. 
+
+- [Algorithm & Feature Selection](https://github.com/Wrestlemaniaa/Automation/blob/master/Main%20Assignment/Algorithms%20%26%20Feature%20Selection.ipynb) - This file contains all the algorithms which we have used and methods of feature selection which is implimented.
+
+- [Feature Engineering](https://github.com/Wrestlemaniaa/Automation/blob/master/Main%20Assignment/Feature%20Engineering.ipynb) - Contains list of all the methods which we have used for feature engineering like Boruta, RFSEC, etc.
+
+- [Model Validation](https://github.com/Wrestlemaniaa/Automation/blob/master/Main%20Assignment/Model%20Validation.ipynb) - Contains list of all the methods which we have used for validating our model like Cross-validation, Regularization, Bias-variance tradeoff, etc.
+
+**NOTE** : A detailed report of the assignemnt can be found [here](https://github.com/Wrestlemaniaa/Automation/blob/master/Main%20Assignment/Assignment%203%20Report.pdf).
