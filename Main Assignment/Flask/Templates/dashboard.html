@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Data Analytics</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+</head>
+<body>
+  <div class = "container-fluid">
+      <form action="/upload/" method="POST" enctype = "multipart/form-data">
+        <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file"  name="file"> </input>
+	</div>
+        <!--p class="help-block">Example block-level help text here.</p-->
+        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-cloud-upload"></span>Upload</button>
+       <!--div id="result"></div-->
+      </form>
+      <form action="/forminput/" method="POST">
+                  <div class="form-group">
+                    <label for="Input1">Time</label>
+                    <input type="number" class="form-control" id="Input1" name="time" value="{{request.form.time}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input2">CC2</label>
+                    <input type="number" class="form-control" id="Input2" name="CC2" value="{{request.form.CC2}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input3">Post share count</label>
+                    <input type="number" class="form-control" id="Input3" name="psc" value="{{request.form.psc}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input4">c3</label>
+                    <input type="number" step="0.000001" class="form-control" id="Input4" name="c3" value="{{request.form.c3}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input5">c8</label>
+                    <input type="number" step="0.000001" class="form-control" id="Input5" name="c8" value="{{request.form.c8}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input6">c18</label>
+                    <input type="number" step="0.000001" class="form-control" id="Input6" name="c18" value="{{request.form.c18}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input7">CC1</label>
+                    <input type="number" class="form-control" id="Input7" name="CC1" value="{{request.form.CC1}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input8">CC4</label>
+                    <input type="number" class="form-control" id="Input8" name="CC4" value="{{request.form.CC4}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input9">Post length char count</label>
+                    <input type="number" class="form-control" id="Input9" name="plcc" value="{{request.form.plcc}}">
+                  </div>
+                  <div class="form-group">
+                    <label for="Input10">CC5</label>
+                    <input type="number" class="form-control" id="Input10" name="CC5" value="{{request.form.CC5}}">
+                  </div>
+                  <button type="submit" class="btn btn-default"> Submit </button>
+      </form> 
+      {% with messages = get_flashed_messages() %}
+          {% if messages %}
+	   <ul class=flashes>
+            {% for message in messages %}
+               <!--div class="alert alert-warning alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"></span></button-->
+                    {{message}}
+               <!--/div-->
+            {% endfor %}
+	    </ul>
+          {% endif %}
+       {% endwith %}
+       {% block body %}{% endblock %}
+  </div>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
