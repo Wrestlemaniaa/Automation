@@ -5,7 +5,7 @@
 2. Jerin Rajan (rajan.j@husky.neu.edu)
 3. Nitin Prince Reuben (reuben.n@husky.neu.edu)
 
-**Assignment**
+### Assignment
 
 AdaptiveAlgo Systems Inc. has invited you to be partners in helping them implement data
 science solutions. Your company was selected after rigorous review and is held in high esteem
@@ -76,3 +76,8 @@ computation
 10. Write a Readme.md detailing your application
 
 **Bonus Points:** Do Auto Scalability and create more worker nodes as needed?
+
+### Execution 
+
+* All the major work related to the assignment can be found in [Main Assignment](https://github.com/Wrestlemaniaa/Automation/tree/master/Main%20Assignment) folder.
+* All the extra research which has been done during the preparation phase and exceution phase can be found in [Experimental Work](https://github.com/Wrestlemaniaa/Automation/tree/master/Experimental%20Works)
