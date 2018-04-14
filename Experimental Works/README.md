@@ -9,3 +9,9 @@ This folder contains all the extra work and experiments which has been done duri
 - [Models&FeatureSelection](https://github.com/NortheasternUniversityADS/Assignment-3/blob/master/Experimental%20Works/Models%26FeatureSelection.ipynb) - Set of different feature selection methods which we have used.
 
 - [RF_RandGrid](https://github.com/NortheasternUniversityADS/Assignment-3/blob/master/Experimental%20Works/RF_RandGrid.ipynb) - Random grid search is performed for hyperparameter tuning. 
+
+- [FinalModels_WithoutSVR](https://github.com/Wrestlemaniaa/Automation/blob/master/Experimental%20Works/FinalModels_WithoutSVR.ipynb) - Contains all model which we have done except `SVR` as it takes lot of time to build the model.
+
+- [RFSEC](https://github.com/Wrestlemaniaa/Automation/blob/master/Experimental%20Works/RFSEC.ipynb) - Contains code for RFSEC (a feature engineering method).
+
+**NOTE** : A detailed report of the assignemnt can be found [here](https://github.com/Wrestlemaniaa/Automation/blob/master/Main%20Assignment/Assignment%203%20Report.pdf).
