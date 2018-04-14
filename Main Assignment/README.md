@@ -22,4 +22,4 @@
 
 NOTE: Data in this file can not be viewed in 'github'.
 
-- [Flask](https://github.com/Wrestlemaniaa/Automation/tree/master/Main%20Assignment/Flask) folder contains all the code which is used to create UI using 'Flask API'. 
+- [Flask](https://github.com/Wrestlemaniaa/Automation/tree/master/Main%20Assignment/Flask) folder contains all the code which is used to create UI using `Flask API`. 
