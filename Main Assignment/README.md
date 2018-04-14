@@ -1,4 +1,4 @@
-##This folder contains main documents of assignment.
+## This folder contains main documents of assignment.
 
 - [EDA](https://github.com/NortheasternUniversityADS/Assignment-3/blob/master/Main%20Assignment/EDA.ipynb) - Contains details of Exploratory Data Analysis.
 
@@ -8,7 +8,7 @@
 - [Summary](https://github.com/NortheasternUniversityADS/Assignment-3/blob/master/Main%20Assignment/Summarry.csv) - Final results which we got after running all models in training and testing data.
 
 
--SAV FIles - There are 5 '.sav' files. It contains data and details of all the models in biary form.
+- SAV FIles - There are 5 '.sav' files. It contains data and details of all the models in biary form.
 
 1) [k-Nearest Neighbour](https://github.com/NortheasternUniversityADS/Assignment-3/blob/master/Main%20Assignment/KNN_model.sav)
 
@@ -21,3 +21,5 @@
 5) [Random Forest](https://github.com/NortheasternUniversityADS/Assignment-3/blob/master/Main%20Assignment/RF_model.sav)
 
 NOTE: Data in this file can not be viewed in 'github'.
+
+- [Flask](https://github.com/Wrestlemaniaa/Automation/tree/master/Main%20Assignment/Flask) folder contains all the code which is used to create UI using 'Flask API'. 
