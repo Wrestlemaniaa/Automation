@@ -81,3 +81,4 @@ computation
 
 * All the major work related to the assignment can be found in [Main Assignment](https://github.com/Wrestlemaniaa/Automation/tree/master/Main%20Assignment) folder.
 * All the extra research which has been done during the preparation phase and exceution phase can be found in [Experimental Work](https://github.com/Wrestlemaniaa/Automation/tree/master/Experimental%20Works)
+* A detailed report of the assignemnt can be found [here](https://github.com/Wrestlemaniaa/Automation/blob/master/Main%20Assignment/Assignment%203%20Report.pdf).
